@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto-Light.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    margin-bottom: 2em;
+    font-family: Roboto;
+}
+
+.list {
+    width: 10em;
+    height: 25em;
+    
+    padding-left: 1.5em;
+    padding-top: 11em;
+
+    margin-top: 2.75em;
+
+    background-color: lightgray;
+
+    position: fixed;
+}
+
+.list li {
+    padding-bottom: 1.5em;
+    list-style: none;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+}
+
+.list a:hover {
+    background-color: darkgrey;
+}
+
+.list a:visited {
+    color: black;
+}
+
+.info {
+    width: 70em;
+    height: 36em;
+
+    margin-left: 13em;
+    margin-top: 2.7em;
+
+    background-color: darkgray;
+}
+
+hr {
+    border: 0.1em solid black;
+}
+
+h1 {
+    font-size: 3.5em;
+    padding-top: 2.7em;
+    padding-left: 1.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-left: 3.6em;
+}
+
+p {
+    font-size: 1.2em;
+    padding-left: 4.5em;
+    padding-top: -2em;
+}
+
+.info li {
+    font-size: 1.2em;
+    padding-left: 5.5em;
+}
+
+ul {
+    list-style-position: inside;
+}
+#name {
+    margin: 0;
+}
+#image {
+    float: right;
+    margin-right: 4em;
+}
